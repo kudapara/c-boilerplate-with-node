@@ -9,8 +9,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "cc main.c -o dist/main",
-    "run": "./dist/main",
-    "dev": "npm run build && npm run run"
+    "start": "./dist/main",
+    "dev": "npm run build && npm start"
   },
   "keywords": [],
   "author": "",
